@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 require('dotenv').config();
 const Jwt = require('@hapi/jwt');
-
 const Hapi = require('@hapi/hapi');
 // notes
 const notes = require('./api/notes');
